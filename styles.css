@@ -1,0 +1,46 @@
+:root {
+  --fondo: #1c1f24;
+  --acento: #e0a526;
+  --texto: #f2f2f2;
+}
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: var(--fondo);
+  color: var(--texto);
+}
+
+header {
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  color: var(--acento);
+  margin: 0;
+  font-weight: 600;
+}
+
+header p {
+  margin: 6px 0 0;
+  opacity: 0.8;
+}
+
+#mapa {
+  height: 60vh;
+  width: 100%;
+}
+
+.leaflet-popup-content h3 {
+  color: #1c1f24;
+  margin: 0 0 6px;
+  font-size: 16px;
+}
+
+.leaflet-popup-content p {
+  color: #333;
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.4;
+}
